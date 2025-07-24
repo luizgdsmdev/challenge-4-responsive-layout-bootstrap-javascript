@@ -196,7 +196,21 @@
     margin-bottom: 1.5rem;
 }
 
+.navbar-nav{
+    text-align: -webkit-center;
+}
 
+#exampleModal{
+    z-index: 99999999999999999;
+    position: absolute;
+}
+
+
+#modalSpace{
+    width: 100%!important;
+    max-width: 81rem!important;
+    padding: 1rem;
+}
 
 @media screen and (max-width: 1199px) {
     #coffee-leafs-2{
