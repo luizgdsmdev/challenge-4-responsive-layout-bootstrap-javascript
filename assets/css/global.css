@@ -212,9 +212,64 @@
     padding: 1rem;
 }
 
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-collapse button{
+    margin: 1rem 0;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link{
+    width: 17rem;
+}
+
+#buttomNav{
+    background-color: #6f7c42;
+    border: 1px solid #97a077;
+    transition: 0.5s ease-in-out;
+    font-weight: bold;
+}
+
+#buttomNav:hover{
+    background-color: white;
+    color: #6f7c42!important;
+}
+
+#carouselTop > div > div.carousel-item > div > h4 {
+    font-size: 3rem;
+}
+#carouselTop > div > div.carousel-item > div > p{
+    font-size: 1.2rem;
+}
+
+#navbarSupportedContent > ul > li{
+    transition: 1s ease-in-out;
+    max-width: 12rem;
+    align-self: center;
+}
+
+#navbarSupportedContent > ul > li:hover{
+    border-bottom: 1.5px solid #97a077;
+}
+
+#navbarSupportedContent > ul > li > a{
+    padding-bottom: 0;
+}
+
+
 @media screen and (max-width: 1199px) {
     #coffee-leafs-2{
         margin-top: 2rem;
+    } 
+}
+
+@media screen and (max-width: 1024) {
+    #carouselTop > div > div.carousel-item > div > h4 {
+    font-size: 2rem!important;
+    }
+    #carouselTop > div > div.carousel-item > div > p{
+        font-size: 1.2rem;
     }
 }
 

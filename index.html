@@ -33,13 +33,17 @@
                     <a class="nav-link active" aria-current="page" href="#Address">Address</a>
                 </li>
                 <li class="nav-item fs-5">
-                    <a class="nav-link" href="#About">About us</a>
+                    <a class="nav-link active" href="#About">About us</a>
                 </li>
             </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <button id="buttomNav"
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Meet the Coffee Shop
+        </button>
             </div>
         </div>
     </nav>
@@ -56,14 +60,14 @@
             </div>
             <div class="carousel-item carousel-item-2">
                 <img loading="lazy" src="./assets/images/carrossel-2.jpg" class="d-block w-100" alt="Coffe shop places">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h4>An environment designed for you and your family</h4>
                     <p>Our café was designed to provide you with a comfortable, peaceful, and relaxed environment.</p>
                 </div>
             </div>
             <div class="carousel-item carousel-item-3">
                 <img loading="lazy" src="./assets/images/carrossel-3.jpg" class="d-block w-100" alt="Coffe shop places">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h4>The best grains</h4>
                     <p>We work with selected, top-quality ingredients, just the way you deserve!</p>
                 </div>
@@ -577,18 +581,24 @@
         </div>
       </section>
       </div>
+        <div class="mapouter">
+            <div class="gmap_canvas">
+            <iframe
+                style="width: 100%"
+                height="500"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+            >
+            </iframe>
+            </div>
+        </div>
 
-      <!-- Local -->
-      <section id="Address" class="container text-center mt-5">
-        <!-- Button trigger modal -->
-        <button
-          type="button"
-          class="btn btn-primary"
-          data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
-        >
-          Meet the Coffee Shop
-        </button>
+
+        <section id="Address" class="container text-center mt-5">
 
         <!-- Modal -->
         <div
@@ -644,6 +654,7 @@
           </div>
         </div>
       </section>
+
     </main>
 
 
