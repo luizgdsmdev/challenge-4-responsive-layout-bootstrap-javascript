@@ -255,6 +255,7 @@
 
 #navbarSupportedContent > ul > li > a{
     padding-bottom: 0;
+
 }
 
 
@@ -289,6 +290,9 @@
 
     #coffee-leafs-2{
         margin-top: -7.5rem;
+    }
+    #coffee-leafs-1, #coffee-leafs-2{
+        display: none;
     }
 }
 
