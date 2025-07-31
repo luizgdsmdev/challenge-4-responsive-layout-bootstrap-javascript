@@ -21,7 +21,6 @@ The project remains under constant development.
 - [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
-
 ## Code Structure
 
 - **`index.html`**: The main HTML file that defines the webpage structure, including a navigation bar, hero section, and content cards, using Bootstrap classes for layout and components.
